@@ -1,0 +1,13 @@
+#header {
+  background: gray;
+}
+
+.header_item {
+  font-family: 'Padauk', sans-serif;
+  color: white;
+  padding-left: 10px;
+  font-size: 24px;
+  display: inline-block;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
