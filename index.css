@@ -1,5 +1,15 @@
-#header {
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#page_header {
   background: gray;
+}
+
+#face_pic {
+  width: 10%;
+  height: 10%;
+  border-radius:50%;
 }
 
 .header_item {
@@ -10,4 +20,9 @@
   display: inline-block;
   margin-top: 1%;
   margin-bottom: 1%;
+}
+
+.main_header {
+font-family:'Merriweather Sans', sans-serif;
+font-size: 10px;
 }
