@@ -240,8 +240,8 @@ nav ul li a {
 }
 
 .logo img {
-  width: 100px;
-  height: 50px;
+  width: 20%;
+  height: 20%;
 }
 
 .responsive {
@@ -258,7 +258,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/home-bg.png") repeat scroll center center / cover;
+  background: url("../images/night_fishing.jpg") repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
 }
