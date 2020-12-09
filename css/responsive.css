@@ -83,6 +83,12 @@
     float: none;
     display: inline-block;
   }
+  .row-cols-1 {
+    display: block;
+    width: 60%;
+    margin:0 auto;
+
+  }
 }
 
 /** Width between 767px to 0
@@ -117,7 +123,10 @@
   }
 
   .row-cols-1 {
-    display:block;
+    display: block;
+    width: 80%;
+    margin:0 auto;
+
   }
 
 
