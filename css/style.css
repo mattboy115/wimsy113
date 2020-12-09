@@ -302,7 +302,7 @@ nav ul li a {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*  Aout-us
+/*  About-us
 /*-----------------------------------------------------------------------------------*/
 
 #about {
@@ -314,7 +314,7 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #6f0fa0;
 }
 
 #about .div-img-bg .about-img img {
@@ -397,7 +397,7 @@ nav ul li a {
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #b8a07e;
+  background-color: #6f0fa0;
 }
 
 .owl-nav {

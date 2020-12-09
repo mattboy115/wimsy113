@@ -1,8 +1,18 @@
-/** Width between 1200x to 0
+/** Width between 1200px to infinity
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
 @media (min-width: 1200px) {
+.row-cols-1 {
+  display:inline-flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+.card {
+  margin: 0 1rem;
+  width: 98%%
+}
 
 }
 
