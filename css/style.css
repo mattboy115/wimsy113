@@ -324,6 +324,11 @@ nav ul li a {
   display: block;
 }
 
+.section-title {
+  margin-top: 5%;
+
+}
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
 
