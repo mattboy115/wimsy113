@@ -196,7 +196,7 @@ p {
 
 nav {
   position: fixed;
-  background: #fff;
+  background: #7D18CC;
   z-index: 1000;
   width: 100%;
   padding: 20px;
@@ -204,6 +204,10 @@ nav {
   -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+}
+
+.site_logo {
+  color: white;
 }
 
 .nav-menu {
@@ -226,7 +230,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 14px;
-  color: #999999;
+  color: #ffffff;
   font-family: 'Poppins', helvetica;
   font-weight: 500;
   line-height: 16px;
@@ -284,14 +288,17 @@ nav ul li a {
 .header-content p {
   font-size: 24px;
   letter-spacing: 5px;
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin-top: 30px;
   text-transform: capitalize;
   background-color: #952698;
-  color: #480E7B
+  color: #ffffff;
+  /* width: 80%;
+  height: 10%; */
+
   ;
   font-weight: 500;
 }
+
 
 .header-content .list-social li {
   float: left;
@@ -407,7 +414,7 @@ nav ul li a {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #7D18CC;
   line-height: 44px;
 }
 
@@ -629,7 +636,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #952698;
+  background: #7D18CC;
   padding-top: 50px;
   padding-bottom: 50px;
 }
