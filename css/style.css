@@ -79,7 +79,7 @@ a:hover {
 }
 
 a:hover, a:focus {
-  color: #b8a07e;
+  color: #952698;
   text-decoration: underline;
 }
 
@@ -258,7 +258,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/night_fishing.jpg") repeat scroll center center / cover;
+  background: url("../images/Hero_Image.png") repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
 }
@@ -278,16 +278,18 @@ nav ul li a {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #fff;
+  color: #7D18CC;
 }
 
 .header-content p {
-  font-size: 13px;
+  font-size: 24px;
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: #fff;
+  background-color: #952698;
+  color: #480E7B
+  ;
   font-weight: 500;
 }
 
@@ -297,7 +299,7 @@ nav ul li a {
 }
 
 .header-content .list-social li i {
-  color: #fff;
+  color: #480E7B;
   font-size: 15px;
 }
 
@@ -318,7 +320,7 @@ nav ul li a {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: #952698;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -330,7 +332,7 @@ nav ul li a {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #952698;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
@@ -627,7 +629,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
+  background: #952698;
   padding-top: 50px;
   padding-bottom: 50px;
 }

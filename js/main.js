@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Krystyna Ewing", "Designing.", "Coding.", "Freelancing.", "Illustrating"],
+      strings: ["Krystyna Ewing", "Designing User Experiences", "Freelancing.", "Illustrating"],
       typeSpeed: 150,
       loop: true,
     });
