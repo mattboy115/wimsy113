@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   height: 12%;
+}
+
+.logo {
+  margin-left: 2%;
+}
+
+.site_links {
+margin-right: 3%;
+display:flex;
+}
+
+.site_links p {
+    margin-right: 8%;
+}
+
