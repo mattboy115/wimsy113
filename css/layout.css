@@ -6,11 +6,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-   height: 12%;
+  height: 12%;
 }
 
 .logo {
   margin-left: 2%;
+}
+
+.container {
+  height: 100vh;
+}
+
+.hero_image {
+  margin-left: 18%;
 }
 
 .site_links {
@@ -22,3 +30,24 @@ display:flex;
     margin-right: 8%;
 }
 
+.bottom_line {
+  margin-top: -.8%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.bottom_line p{
+  margin-top: 1%;
+  width: 100%;
+}
+
+.bio_section {
+  display: flex;
+  margin: 20%;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+}

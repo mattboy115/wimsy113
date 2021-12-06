@@ -12,6 +12,12 @@ header {
     color:#510381;
 }
 
+.bottom_line {
+    background-color: #510381;
+    color: #ffffff;
+    height: 50px;
+    font-size: 1.5em;
+}
 
 
 footer {
