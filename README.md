@@ -12,9 +12,10 @@ When I'm not adding to my contributions on Github, I'm drawing, 3D printing stuf
 
 
 
-- 🔭 I’m currently working on various open source projects as well as graduatinng from WeCanCodeIt
+- 🔭 I’m currently working on various open source projects 
 - 🌱 I’m currently learning Full Stack Functional Java
 - 💬 Ask me about UX Design, Front End Development, and Operation Code
+- 🔭 Recent We Can Code It Graduate
 - 📫 How to reach me: The links at the bottom of the page!
 
 
