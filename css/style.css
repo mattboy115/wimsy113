@@ -2,14 +2,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+/* header {
     border-top: 12px solid #510381;
-}
+} */
 
 .site_links a{
-    font-size: 1.5em;
+    font-size: 1em;
     text-decoration: none;
-    color:#510381;
+    color:#363636;
+}
+
+.site_links a:hover {
+    background-color: #510381;
+    color: #ffffff;
 }
 
 .bottom_line {

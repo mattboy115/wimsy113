@@ -18,16 +18,27 @@
 }
 
 .hero_image {
-  margin-left: 18%;
+  display: block;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
+
+
 .site_links {
-margin-right: 3%;
+margin-right: 5%;
 display:flex;
 }
 
 .site_links p {
-    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.site_links {
+  margin-left: 80%;
+  margin-top: 3%;
 }
 
 .bottom_line {
@@ -44,7 +55,12 @@ display:flex;
 
 .bio_section {
   display: flex;
-  margin: 20%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+
+.bio_section img {
+  width: 80%;
 }
 
 footer {
