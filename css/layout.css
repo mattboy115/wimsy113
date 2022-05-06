@@ -33,7 +33,7 @@ display:flex;
 }
 
 .site_links p {
-    margin-left: 8%;
+    margin-left: 10%;
 }
 
 .site_links {
@@ -62,6 +62,41 @@ display:flex;
 .bio_section img {
   width: 80%;
 }
+
+.long_project {
+  position: relative;
+  width: 80%;
+}
+
+.long_project img {
+  width: 100%;
+  height: auto;
+}
+
+.long_project button {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #58ACFD;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+
+
+#case_studies {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
 
 footer {
   position: absolute;
