@@ -74,21 +74,25 @@ display:flex;
   height: auto;
 }
 
-.long_project button {
+.long_project ul {
+  text-decoration: none;
   position: absolute;
-  top: 90%;
-  left: 85%;
+  top: 75%;
+  left: 70%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #58ACFD;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  list-style-type: none;
+  width: 50%;
 }
+
+.case_studies_links li {
+    list-style-type: none;
+    top: 10%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 
 
 
