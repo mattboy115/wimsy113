@@ -66,6 +66,7 @@ display:flex;
 .long_project {
   position: relative;
   width: 80%;
+  margin-left: 10%;
 }
 
 .long_project img {
@@ -75,8 +76,8 @@ display:flex;
 
 .long_project button {
   position: absolute;
-  top: 80%;
-  left: 50%;
+  top: 90%;
+  left: 85%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #58ACFD;
@@ -91,11 +92,6 @@ display:flex;
 
 
 
-#case_studies {
-  display: flex;
-  flex-flow: column;
-  align-items: flex-start;
-}
 
 
 footer {
