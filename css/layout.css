@@ -93,10 +93,37 @@ display:flex;
     width: 100%;
 }
 
+.short_projects {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: -3.8rem;
+}
 
 
+.short_projects img {
+  width: 100%;
+  height: auto;
+}
 
+.short_projects ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-10rem);
+}
 
+.ha_case_studies_links ul {
+  display: flex;
+  justify-content: space-between;
+  bottom: 30%;
+  left: 50%;
+}
+
+.ha_case_studies_links li {
+  flex: 0 0 auto;
+}
 
 footer {
   position: absolute;

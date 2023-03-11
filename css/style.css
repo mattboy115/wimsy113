@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-}
+    background-color: aquamarine;
+  }
 
 /* header {
     border-top: 12px solid #510381;
@@ -25,6 +26,18 @@ body {
 }
 
 .case_studies_links a {
+  text-decoration: none;
+  background-color: #58ACFD;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  width: 40%;
+  text-align: center;
+}
+
+.ha_case_studies_links a {
   text-decoration: none;
   background-color: #58ACFD;
   color: white;
