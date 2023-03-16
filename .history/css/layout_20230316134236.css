@@ -11,7 +11,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 20%;
+  height: 12%;
+  background-color: hsla(0, 0%, 100%, 0.194);
 }
 
 .logo {
@@ -42,12 +43,15 @@ margin-bottom: 1rem;
 
 .site_links p {
     margin-left: 2%;
+    background-color: hsla(0, 0%, 100%, 0.194);
+
 }
 
 .site_links a {
   background: #82ccab;
   color: #7979f5;
   text-decoration: none;
+  
 }
 
 .site_links button {
