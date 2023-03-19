@@ -4,5 +4,6 @@
 # Ada Library Information
 *.ali
 
-# Scooter's Journal
+# Scooter's stuff
 journal.md
+.history
