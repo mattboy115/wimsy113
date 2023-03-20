@@ -111,6 +111,13 @@ margin-bottom: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.small-projects {
+  display: flex;
+  justify-content: space-between;
+  width: 101%;
+  margin-top: 16px;
+}
+
 .small-project {
   width: 100%;
   padding: 8px;
@@ -123,76 +130,13 @@ margin-bottom: 1rem;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
-.button {
-  display: inline-block;
-  position: absolute;
-  bottom: 8px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 8px 16px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: white;
-  background-color: black;
-  text-decoration: none;
-  border-radius: 8px;
-}
+/* Header needs to be a Header DONE */
 
-.small-projects {
-  display: flex;
-  justify-content: space-between;
-  width: 101%;
-  margin-top: 16px;
-}
+/* Buttons need to be Sewn onto the album covers WORKING */
 
-/* .small-project button-container {
-  height: 500px;
-} */
+/* make big projects be same width as small projects DONE */
 
-.small-project button.mhq {
-  display: inline-block;
-  position: absolute;
-  bottom: 8px;
-  left: 50%;
-  transform: translateX(-150%);
-  padding: 8px 16px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: white;
-  background-color: red;
-  text-decoration: none;
-  border-radius: 8px;
-}
-
-.small-project button.mhq.right {
-  transform: translateX(60%);
-}
-
-
-.button.tl {
-  background-color: #58ACFD;
-}
-
-
-.button.pf {
-  background-color: #00A3E0;
-}
-
-.button.ha {
-  background-color: #FF414D;
-}
-
-.button.right {
-  transform: translateX(300%);
-}
-
-/* Header needs to be a Header */
-
-/* Buttons need to be Sewn onto the album covers */
-
-/* make big projects be same width as small projects */
-
-/* spinny box around portrait div */
+/* spinny box around portrait div NYB */
 
 /* Then you can add cool mouse-over effects  */
 
