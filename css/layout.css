@@ -44,11 +44,18 @@ margin-bottom: 1rem;
 }
 
 .site_links a {
-  color: #dcfdf6;
+  color: #363636;
   text-decoration: none;
+  margin-left: 12px;
 }
 
-.site_links button {
+.site_links a:Hover{
+  background: hsla(274,97%,50%,.7);
+  color:#ffffff;
+  padding: 4px 24px;
+}
+
+/* .site_links button {
   background: hsla(274,97%,50%,.7); 
   border-radius: 999px;
   box-shadow: #4f3275 0 10px 20px -10px;
@@ -60,11 +67,11 @@ margin-bottom: 1rem;
   line-height: 24px;
   opacity: 1;
   outline: 0 solid transparent;
-  padding: 8px 18px;
+  padding: 8px 10px;
   width: 8rem;
   word-break: break-word;
   border: 0;
-}
+} */
 
 
 .bottom_line {
@@ -154,7 +161,7 @@ margin-bottom: 1rem;
   background-color: #58ACFD;
   color: white;
   font-size: 16px;
-  padding: 12px 24px;
+  padding: 6px 36px;
   border: none;
   border-radius: 5px;
   width: 80%;
@@ -168,7 +175,7 @@ margin-bottom: 1rem;
   position: absolute;
   bottom: 10px;
   left: 0;
-  right: 0;
+  right: 20;
   display: flex;
   justify-content: center;
 }
@@ -187,7 +194,7 @@ margin-bottom: 1rem;
   background-color: #58ACFD;
   color: white;
   font-size: 16px;
-  padding: 12px 24px;
+  padding: 4px 36px;
   border: none;
   border-radius: 5px;
   width: 80%;
