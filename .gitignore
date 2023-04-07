@@ -3,3 +3,7 @@
 
 # Ada Library Information
 *.ali
+
+# Scooter's stuff
+journal.md
+.history
