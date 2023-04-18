@@ -1,7 +1,7 @@
 /* fieldset */
 
 fieldset{
-  border: 1px solid black;
+  border: none;
   margin: 8px 0 8px 0;
 }
 
@@ -10,17 +10,20 @@ fieldset{
 nav{
   display: flex;
   justify-content: flex-end;
-  gap: 8px;
+  gap: 3rem;
 }
 
 nav a{
   list-style: none;
   text-decoration: none;
   color: black;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  font-size: 2.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav a:hover{
-  transition: ease-in-out 0.3s;
   background-color: purple;
 }
 
@@ -51,10 +54,22 @@ nav a:hover{
 #small-projects{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  height:auto;
+  position: relative;
+  left: 4%;
 }
 
-.big-project img, .small-project img{
+.big-project img{
   width: 90%;
+  height: auto;
+  position: relative;
+  padding: 0 4%;
+}
+
+.small-project img{
+  width: 100%;
   height: auto;
 }
 
