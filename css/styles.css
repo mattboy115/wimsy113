@@ -24,7 +24,7 @@ nav a{
 }
 
 nav a:hover{
-  background-color: purple;
+  background-color: rgba(162, 48, 252, 70%);
 }
 
 /* hero image, bio */
