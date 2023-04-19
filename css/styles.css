@@ -49,6 +49,7 @@ nav a:hover{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 
 #small-projects{
@@ -75,7 +76,30 @@ nav a:hover{
 
 /* button container */
 
+.button-container {
+  position: relative;
+  display: flex;
+  z-index: 10;
+  left: 55%;
+  transform: translateY(-150%);
+}
+
+.button-container a{
+  border: none;
+  color:white;
+  padding: 6px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inherit;
+  background-color: #58acfd;
+  font-size: 18px;
+  border-radius: 8px;
+  width: 80%;
+  position: relative;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 .button-container ul {
   list-style: none;
-  text-decoration: none;
 }
