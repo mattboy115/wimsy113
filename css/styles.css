@@ -103,3 +103,15 @@ nav a:hover{
 .button-container ul {
   list-style: none;
 }
+
+.ha-button a {
+  background-color: #ff0000;
+}
+
+.pf-button a {
+  background-color: #0F2C52;
+}
+
+.hq-button a{
+  background-color: #FF414D;
+}
