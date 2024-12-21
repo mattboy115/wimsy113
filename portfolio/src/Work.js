@@ -1,4 +1,4 @@
-function Projects() {
+function Work() {
     return (
         <div>
             
@@ -7,4 +7,4 @@ function Projects() {
     );
   }
 
-export default Projects;
+export default Work;

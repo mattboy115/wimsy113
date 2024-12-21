@@ -1,28 +1,67 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import './App.css';
+import logo from "./images/logo.png";
 import Home from "./Home";
-import Projects from "./Projects";
+import Work from "./Work";
+import About from "./About";
+import Art from "./Art";
+import linkedIn from "./images/linkedIn.png";
+import instagram from "./images/instagram.png";
+import gmail from "./images/gmail.png";
 
 function App() {
+
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+  
+    window.addEventListener("scroll", handleScroll);
+  
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
   <Router>
     <div className="app-body">
-      <nav className="nav">
+      <nav className={`nav ${isSticky ? "sticky" : ""}`}>
         <ul className="nav-list">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/Projects">Projects</Link></li>
-          <li><Link to="./about/About">About</Link></li>
+          <div className="home-button">
+            <Link to="/">
+              <img src={logo} alt="Logo for Home button"/>
+            </Link>
+          </div>
+          <li className="nav-item"><Link to="/About">About</Link></li>
+          <li className="nav-item"><Link to="/Work">Work</Link></li>
+          <li className="nav-item"><Link to="/Art">Art</Link></li>
+          
         </ul>
       </nav>
       <div className="content">
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/Projects" element={<Projects/>}/>
+          <Route path="/Work" element={<Work/>}/>
+          <Route path="/About" element={<About/>}/>
+          <Route path="/Art" element={<Art/>}/>
         </Routes>
       </div>
       <footer>
-        Please show up
+      <div className="bio-contact">
+                <p>Website built with care, by Matthew Lee: </p>
+                <Link><img src={linkedIn} alt="LinkedIn"/></Link>
+                <Link><img src={instagram} alt="LinkedIn"/></Link>
+                <Link><img src={gmail} alt="LinkedIn"/></Link>
+              </div>
+        
       </footer>
     </div>
   </Router>
