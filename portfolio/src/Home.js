@@ -25,7 +25,7 @@ function Home() {
             </div>
             <img className="big-face" src={bigFace} alt="Background for Home page" />
           </div>
-
+          <div id="work"></div>
           <div className="home-element">
             <div className="home-element-left">
               <img className="hazadapt-logo" src={hazadaptLogo} alt="HazAdapt Logo"/>
@@ -61,7 +61,7 @@ function Home() {
             </div>
             <div className="home-element-right"><img src={trueLinkImage} alt="True Link shown on a computer"/></div>
           </div>
-
+          <div id="about"></div>
           <div className="home-element , krys-bio">
             <div className="home-element-left">
               <p className="text1">Krystyna is an experienced user experience professional, who places the user first. </p>

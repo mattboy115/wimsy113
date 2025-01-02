@@ -7,8 +7,8 @@ import Work from "./Work";
 import About from "./About";
 import Art from "./Art";
 import linkedIn from "./images/linkedIn.png";
-import instagram from "./images/instagram.png";
 import gmail from "./images/gmail.png";
+import github from "./images/github-logo.png";
 
 function App() {
 
@@ -56,12 +56,11 @@ function App() {
       </div>
       <footer>
       <div className="bio-contact">
-                <p>Website built with care, by Matthew Lee: </p>
-                <Link><img src={linkedIn} alt="LinkedIn"/></Link>
-                <Link><img src={instagram} alt="LinkedIn"/></Link>
-                <Link><img src={gmail} alt="LinkedIn"/></Link>
-              </div>
-        
+        <p>Website built with care, by Matthew Lee: </p>
+        <Link to=""><img src={linkedIn} alt="LinkedIn"/></Link>
+        <Link to=""><img src={github} alt="Github"/></Link>
+        <Link to=""><img src={gmail} alt="Gmail"/></Link>
+      </div>
       </footer>
     </div>
   </Router>
