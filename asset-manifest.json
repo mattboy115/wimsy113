@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/wimsy113/Home/static/css/main.2d9183e1.css",
-    "main.js": "/wimsy113/Home/static/js/main.a3154526.js",
-    "static/js/373.ba4c7665.chunk.js": "/wimsy113/Home/static/js/373.ba4c7665.chunk.js",
-    "static/media/big-face.png": "/wimsy113/Home/static/media/big-face.03d4d5e4abf75f5c22ad.png",
-    "static/media/bioPhoto.png": "/wimsy113/Home/static/media/bioPhoto.b5acfcc67e3bd11e2df4.png",
-    "static/media/welldone-image.png": "/wimsy113/Home/static/media/welldone-image.ccd0beded74857dd3491.png",
-    "static/media/operation-code-image.png": "/wimsy113/Home/static/media/operation-code-image.d8cd0715a0950a580604.png",
-    "static/media/true-link-image.png": "/wimsy113/Home/static/media/true-link-image.2df94573c37cee7f4bd8.png",
-    "static/media/hazadapt-image.png": "/wimsy113/Home/static/media/hazadapt-image.c13925d2f2280e97788c.png",
-    "static/media/github-logo.png": "/wimsy113/Home/static/media/github-logo.1777e238f99dfbc6b303.png",
-    "static/media/logo.png": "/wimsy113/Home/static/media/logo.35c05b7dc9d892aaebd0.png",
-    "static/media/Kano.otf": "/wimsy113/Home/static/media/Kano.f79fa1258b99c08341ad.otf",
-    "index.html": "/wimsy113/Home/index.html",
-    "main.2d9183e1.css.map": "/wimsy113/Home/static/css/main.2d9183e1.css.map",
-    "main.a3154526.js.map": "/wimsy113/Home/static/js/main.a3154526.js.map",
-    "373.ba4c7665.chunk.js.map": "/wimsy113/Home/static/js/373.ba4c7665.chunk.js.map"
+    "main.css": "/wimsy113/static/css/main.fd386895.css",
+    "main.js": "/wimsy113/static/js/main.8a7fece8.js",
+    "static/js/373.ba4c7665.chunk.js": "/wimsy113/static/js/373.ba4c7665.chunk.js",
+    "static/media/big-face.png": "/wimsy113/static/media/big-face.03d4d5e4abf75f5c22ad.png",
+    "static/media/bioPhoto.png": "/wimsy113/static/media/bioPhoto.b5acfcc67e3bd11e2df4.png",
+    "static/media/welldone-image.png": "/wimsy113/static/media/welldone-image.ccd0beded74857dd3491.png",
+    "static/media/operation-code-image.png": "/wimsy113/static/media/operation-code-image.d8cd0715a0950a580604.png",
+    "static/media/true-link-image.png": "/wimsy113/static/media/true-link-image.2df94573c37cee7f4bd8.png",
+    "static/media/hazadapt-image.png": "/wimsy113/static/media/hazadapt-image.c13925d2f2280e97788c.png",
+    "static/media/github-logo.png": "/wimsy113/static/media/github-logo.1777e238f99dfbc6b303.png",
+    "static/media/logo.png": "/wimsy113/static/media/logo.35c05b7dc9d892aaebd0.png",
+    "static/media/Kano.otf": "/wimsy113/static/media/Kano.f79fa1258b99c08341ad.otf",
+    "index.html": "/wimsy113/index.html",
+    "main.fd386895.css.map": "/wimsy113/static/css/main.fd386895.css.map",
+    "main.8a7fece8.js.map": "/wimsy113/static/js/main.8a7fece8.js.map",
+    "373.ba4c7665.chunk.js.map": "/wimsy113/static/js/373.ba4c7665.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d9183e1.css",
-    "static/js/main.a3154526.js"
+    "static/css/main.fd386895.css",
+    "static/js/main.8a7fece8.js"
   ]
 }
