@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import './App.css';
 import logo from "./images/logo.png";
 import Home from "./Home";
@@ -31,7 +31,7 @@ function App() {
   }, []);
 
   return (
-  <Router basename="/wimsy113">
+  <BrowserRouter basename="/wimsy113">
     <div className="app-body">
       <nav className={`nav ${isSticky ? "sticky" : ""}`}>
         <ul className="nav-list">
@@ -63,7 +63,7 @@ function App() {
         </div>
       </footer>
     </div>
-  </Router>
+  </BrowserRouter>
   );
 }
 
