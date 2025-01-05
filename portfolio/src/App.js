@@ -55,12 +55,12 @@ function App() {
         </Routes>
       </div>
       <footer>
-      <div className="bio-contact">
-        <p>Website built with care, by Matthew Lee: </p>
-        <Link to=""><img src={linkedIn} alt="LinkedIn"/></Link>
-        <Link to=""><img src={github} alt="Github"/></Link>
-        <Link to=""><img src={gmail} alt="Gmail"/></Link>
-      </div>
+        <div className="bio-contact">
+          <p>Website built with care, by Matthew Lee: </p>
+          <Link to=""><img src={linkedIn} alt="LinkedIn"/></Link>
+          <Link to=""><img src={github} alt="Github"/></Link>
+          <Link to=""><img src={gmail} alt="Gmail"/></Link>
+        </div>
       </footer>
     </div>
   </Router>

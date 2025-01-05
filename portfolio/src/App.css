@@ -171,6 +171,10 @@ footer .bio-contact {
   margin-left: 9%;
 }
 
+.element-button {
+  display: none;
+}
+
 .home-element-right img {
   width: 100%;
 }
@@ -271,3 +275,270 @@ footer .bio-contact {
 .bio-contact img {
   height: 2rem;
 }  
+
+@media (max-width: 1080px) {
+  /*-------------------BigFaceSection----------------------*/
+
+  .big-face-text {
+    margin-top: 18rem;
+  }
+
+  .big-face-text h2 {
+    font-size: 2em;
+    width: 70%;
+    margin-left: 20%;
+  }
+
+  .pin {
+    margin-left: .5rem;
+    margin-bottom: -.5rem;
+    height: 3rem;
+  }
+
+  /*------------------WorkSections-------------------*/
+
+  .home-element-left .text1 {
+    font-size: 1em;
+  }
+  
+  .home-element-left .text2 {
+    font-size: 1.9em;
+    padding-bottom: 2rem;
+  }
+
+  /*------------------Bio----------------------------*/
+
+  .krys-bio .text1 {
+    font-size: large;
+  }
+  
+  .krys-bio .text2 {
+    font-size: medium;
+    
+  }
+
+  .krys-bio .home-element-left {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 800px){
+
+  /*------------------------Nav-------------------------*/
+
+  .home-button  {
+    height: 4rem;
+  }
+
+  .nav-list li {
+    display: inline-block;
+    list-style: none;
+    margin: 2.3rem;
+  }
+  
+  .nav-list li a {
+    font-size: 1.2em;
+  }
+
+/*--------------------------BigFace--------------------*/
+
+  .big-face-text {
+    margin-top: 16rem;
+  }
+
+  .big-face-text h2 {
+    font-size: 1.4em;
+    width: 75%;
+    margin-left: 15%;
+  }
+
+  .pin {
+    margin-left: .2rem;
+    margin-bottom: -.1;
+    height: 2rem;
+  }
+
+  /*--------------------HomeElements------------------*/
+
+  .home-element {
+    margin-top: 2rem;
+  }
+  
+  .home-element-left .text1 {
+    font-size: .8em;
+  }
+  
+  .home-element-left .text2 {
+    font-size: 1.4em;
+  }
+  
+  .home-element-left{
+    width: 50%;
+    margin-left: 4rem;
+    margin-top: 3rem;
+  }
+
+    /*------------------Bio----------------------------*/
+
+    .krys-bio .home-element-left {
+      margin-top: 1.5rem;
+      width: 70%;
+    }
+
+    .krys-bio .text1 {
+      font-size: medium;
+    }
+    
+    .krys-bio .text2 {
+      font-size: small;
+      margin-bottom: -1rem;
+    }
+
+    .krys-bio .home-element-left {
+      margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+
+/*--------------------------BigFace--------------------*/
+
+  .big-face {
+    width: 70%;
+    margin: 0;
+    margin-top: 5rem;
+    padding: 0;
+  }
+  
+  .big-face-text {
+    margin-top: 15rem;
+    text-align: left;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+  }
+
+  footer p {
+    font-size: .9em;
+  }
+
+  /*--------------------HomeElements------------------*/
+
+  .home-element {
+    margin-top: 2rem;
+  }
+  
+  .home-element-left .text1 {
+    font-size: .8em;
+  }
+  
+  .home-element-left .text2 {
+    font-size: 1em;
+  }
+  
+  .home-element-left{
+    width: 50%;
+    margin-left: 4rem;
+    margin-top: 3rem;
+  }
+
+  .krys-bio .home-element-left, .krys-bio .home-element-right {
+    width: 50%;
+  }
+
+  .krys-bio .text2 {
+    font-size: x-small;
+    margin-bottom: -1rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .nav-list li {
+    display: block;
+    list-style: none;
+    margin: .5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .big-face-text {
+    margin-top: 14rem;
+    font-size: .6em;
+  }
+
+  .home-element {
+    flex-direction: column;
+    border-radius: 0;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .home-element-left, .well-done .home-element-left, .operation-code .home-element-left, .true-link .home-element-left {
+    margin: 2rem;
+    margin-bottom: 0;
+    width: fit-content;
+    text-align: center;
+  }
+
+  .home-element-left .text2 {
+    margin-bottom: -1rem;
+  }
+
+  .home-element-right, .well-done .home-element-right, .operation-code .home-element-right, .true-link .home-element-right  {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .element-button {
+    background: linear-gradient(180deg, rgba(10,0,171,1) 0%, rgba(30,30,231,1) 67%, rgba(0,119,198,1) 100%);
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    width: 40%;
+    display: inline-block;
+  }
+
+  .home-element-right img {
+    display: inline-block;
+    width: 30%;
+  }
+  
+  .krys-bio .home-element-left {
+    margin: 5%;
+    width: 90%;
+  }
+  
+  .krys-bio .home-element-right {
+    margin: 15%;
+    margin-top: 0;
+    text-align: center;
+    width: 70%;
+  }
+
+  .krys-bio .home-element-right img {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  footer .bio-contact{
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 340px) {
+  nav {
+    background-color: #082B84;
+  }
+}

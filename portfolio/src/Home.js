@@ -32,7 +32,7 @@ function Home() {
               <p className="text1">Timeline: August 2022-Present</p>
               <p className="text2">A collection of hazard guides and preparation activities designed to help people increase their resilience and recovery in a crisis</p>
             </div>
-            <div className="home-element-right"><img src={hazadaptImage} alt="HazAdapt on a phone"/></div>
+            <div className="home-element-right"><Link className="element-button" to=" ">Take a closer look!</Link><img src={hazadaptImage} alt="HazAdapt on a phone"/></div>
           </div>
 
           <div className="home-element , well-done">
@@ -41,7 +41,7 @@ function Home() {
               <p className="text1">Timeline: August 2022-Present</p>
               <p className="text2">A humanitarian aide project that provides real time status tracking of water well function in underdeveloped countries</p>
             </div>
-            <div className="home-element-right"><img src={welldoneImage} alt="Well Done on a computer"/></div>
+            <div className="home-element-right"><Link className="element-button" to=" ">Take a closer look!</Link><img src={welldoneImage} alt="Well Done on a computer"/></div>
           </div>
 
           <div className="home-element , operation-code">
@@ -50,7 +50,7 @@ function Home() {
               <p className="text1">Timeline: August 2022-Present</p>
               <p className="text2">Connecting veterans to education and opportunities in tech leveraging community resources and veteran education benefits</p>
             </div>
-            <div className="home-element-right"><img src={operationCodeImage} alt="Operation Code on a computer"/></div>
+            <div className="home-element-right"><Link className="element-button" to=" ">Take a closer look!</Link><img src={operationCodeImage} alt="Operation Code on a computer"/></div>
           </div>
 
           <div className="home-element , true-link">
@@ -59,7 +59,7 @@ function Home() {
               <p className="text1">Timeline: August 2022-Present</p>
               <p className="text2">A financial institution working to ensure the safety and freedom of aging and disabled populations</p>
             </div>
-            <div className="home-element-right"><img src={trueLinkImage} alt="True Link shown on a computer"/></div>
+            <div className="home-element-right"><Link className="element-button" to=" ">Take a closer look!</Link><img src={trueLinkImage} alt="True Link shown on a computer"/></div>
           </div>
           <div id="about"></div>
           <div className="home-element , krys-bio">
