@@ -14,7 +14,7 @@ import linkedIn from "./images/linkedIn.png";
 import instagram from "./images/instagram.png";
 import gmail from "./images/gmail.png";
 
-function Home() {
+function Wimsy113() {
     return (
         <div className="home-container">
           <div className="big-face-container">
@@ -85,4 +85,4 @@ function Home() {
     );
   }
 
-export default Home;
+export default Wimsy113;
