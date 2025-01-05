@@ -36,7 +36,7 @@ function App() {
       <nav className={`nav ${isSticky ? "sticky" : ""}`}>
         <ul className="nav-list">
           <div className="home-button">
-            <Link to="/Home">
+            <Link to="/">
               <img src={logo} alt="Logo for Home button"/>
             </Link>
           </div>
@@ -48,7 +48,7 @@ function App() {
       </nav>
       <div className="content">
         <Routes>
-          <Route path="/Home" element={<Home/>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/Work" element={<Work/>}/>
           <Route path="/About" element={<About/>}/>
           <Route path="/Art" element={<Art/>}/>
