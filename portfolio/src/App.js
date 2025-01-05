@@ -36,7 +36,7 @@ function App() {
       <nav className={`nav ${isSticky ? "sticky" : ""}`}>
         <ul className="nav-list">
           <div className="home-button">
-            <Link to="/wimsy113">
+            <Link to="/">
               <img src={logo} alt="Logo for Home button"/>
             </Link>
           </div>
