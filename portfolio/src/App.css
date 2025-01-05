@@ -532,7 +532,7 @@ footer .bio-contact {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 384px) {
   .big-face-text {
     margin-top: 11rem;
     font-size: .6em;
