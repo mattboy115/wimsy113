@@ -537,4 +537,8 @@ footer .bio-contact {
     margin-top: 11rem;
     font-size: .6em;
   }
+
+  .pin {
+    height: 1.4rem;
+  }
 }
