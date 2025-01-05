@@ -428,10 +428,6 @@ footer .bio-contact {
     margin-top: 2rem;
   }
   
-  .home-element-left .text1 {
-    font-size: .8em;
-  }
-  
   .home-element-left .text2 {
     font-size: 1em;
   }
@@ -447,7 +443,6 @@ footer .bio-contact {
   }
 
   .krys-bio .text2 {
-    font-size: x-small;
     margin-bottom: -1rem;
   }
 }
@@ -537,8 +532,9 @@ footer .bio-contact {
   }
 }
 
-@media (max-width: 340px) {
-  nav {
-    background-color: #082B84;
+@media (max-width: 380px) {
+  .big-face-text {
+    margin-top: 11rem;
+    font-size: .6em;
   }
 }
