@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import './App.css';
 import logo from "./images/logo.png";
-import Wimsy113 from "./Wimsy113";
+import Home from "./Home";
 import Work from "./Work";
 import About from "./About";
 import Art from "./Art";
@@ -36,7 +36,7 @@ function App() {
       <nav className={`nav ${isSticky ? "sticky" : ""}`}>
         <ul className="nav-list">
           <div className="home-button">
-            <Link to="/Wimsy113">
+            <Link to="/">
               <img src={logo} alt="Logo for Home button"/>
             </Link>
           </div>
@@ -48,7 +48,7 @@ function App() {
       </nav>
       <div className="content">
         <Routes>
-          <Route path="/wimsy113" element={<Wimsy113/>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/Work" element={<Work/>}/>
           <Route path="/About" element={<About/>}/>
           <Route path="/Art" element={<Art/>}/>
