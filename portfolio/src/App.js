@@ -31,7 +31,7 @@ function App() {
   }, []);
 
   return (
-  <Router>
+  <Router basename="wimsy113">
     <div className="app-body">
       <nav className={`nav ${isSticky ? "sticky" : ""}`}>
         <ul className="nav-list">
