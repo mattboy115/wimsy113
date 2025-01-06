@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Kano";
-  src: url("fonts/Kano.otf");
+  src: url("../fonts/Kano.otf");
   font-weight: bold;
 }
 
@@ -225,6 +225,15 @@ footer .bio-contact {
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-right: 2rem;
+}
+
+.desktop {
+  display: visible;
+  text-decoration: none;
+}
+
+.mobile {
+  display: none;
 }
 
 .krys-bio {
@@ -492,10 +501,11 @@ footer .bio-contact {
   }
 
   .element-button {
-    background: linear-gradient(180deg, rgba(10,0,171,1) 0%, rgba(30,30,231,1) 67%, rgba(0,119,198,1) 100%);
+    background-color: rgb(27, 27, 187);
     text-decoration: none;
     color: white;
     padding: 1rem;
+    border: rgb(101, 98, 255) 1px solid;
     border-radius: 1rem;
     margin: 2rem;
     width: 40%;
@@ -505,6 +515,14 @@ footer .bio-contact {
   .home-element-right img {
     display: inline-block;
     width: 30%;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: inline-block;
   }
   
   .krys-bio .home-element-left {

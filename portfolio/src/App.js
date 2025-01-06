@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import './App.css';
+import './styles/App.css';
 import logo from "./images/logo.png";
 import Home from "./Home";
 import Work from "./Work";
 import About from "./About";
+import Hazadapt from "./Hazadapt";
 import Art from "./Art";
 import linkedIn from "./images/linkedIn.png";
 import gmail from "./images/gmail.png";
@@ -52,6 +53,7 @@ function App() {
           <Route path="/Work" element={<Work/>}/>
           <Route path="/About" element={<About/>}/>
           <Route path="/Art" element={<Art/>}/>
+          <Route path="/Hazadapt" element={<Hazadapt/>}/>
         </Routes>
       </div>
       <footer>
